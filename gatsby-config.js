@@ -15,9 +15,9 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/preethampathi/`,
     // Content of the About Me section
-    about: `Machine Learning and Data Science Engineer with experience to prove. \n\
-    Worked at Butterflies Dating and Socials, General Electric and Propeller Health (ResMed). \n\
-    Bachelors in Computer Science from VIT University. \n\
+    about: `Machine Learning and Data Science Engineer with experience to prove. \\n\
+    Worked at Butterflies Dating and Socials, General Electric and Propeller Health (ResMed). \\n\
+    Bachelors in Computer Science from VIT University. \\n\
     Masters in Data Science from University of San Francisco.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
@@ -61,33 +61,33 @@ module.exports = {
       },
       {
         name: 'Propeller Health (ResMed)',
-        description: 'Data Scientist, October 2022 - July 2023\n\
-        - Developed and implemented an Isolation Forest model and a distance based algorithm to enhance the quality and consistency of patient drug intake data by accurately detecting anomalies on 200M rows of data, utilizing Apache Spark for efficient data transformation.\n\
-        - Utilized the RandomizedSearch technique to create a robust XGBoost regression model on Amazon SageMaker and Redshift to accurately predict the likelihood of patients taking rescue inhaler puffs.\n\
-        - As an intern, I generated interactive Tableau dashboards to analyze user behavior in an Electronic Health Record (EHR) platform.\n\
-        - Utilized PostgreSQL for efficient data storage and retrieval, ensuring data integrity and accessibility throughout the project.\n\
+        description: 'Data Scientist, October 2022 - July 2023\\n\
+        - Developed and implemented an Isolation Forest model and a distance based algorithm to enhance the quality and consistency of patient drug intake data by accurately detecting anomalies on 200M rows of data, utilizing Apache Spark for efficient data transformation.\\n\
+        - Utilized the RandomizedSearch technique to create a robust XGBoost regression model on Amazon SageMaker and Redshift to accurately predict the likelihood of patients taking rescue inhaler puffs.\\n\
+        - As an intern, I generated interactive Tableau dashboards to analyze user behavior in an Electronic Health Record (EHR) platform.\\n\
+        - Utilized PostgreSQL for efficient data storage and retrieval, ensuring data integrity and accessibility throughout the project.\\n\
         - Collaborated with cross-functional teams including data engineers and healthcare professionals to gather requirements, design and deploy data pipelines.',
         link: 'https://propellerhealth.com/',
       },
       {
         name: 'General Electric Steam Power',
-        description: 'Data Analyst, January 2022 - June 2022\n- Conducted an in-depth word frequency analysis on an imbalanced dataset and applied advanced feature engineering techniques to \
+        description: 'Data Analyst, January 2022 - June 2022\\n- Conducted an in-depth word frequency analysis on an imbalanced dataset and applied advanced feature engineering techniques to \
         enhance the quality of the data and developed a highly accurate Random Forest model to predict the Parts Qualification Level for turbine \
-        components, achieving an accuracy rate of 97.3%.\n\
+        components, achieving an accuracy rate of 97.3%.\\n\
         - Engineered and implemented a streamlined model pipeline that incorporated the aforementioned Random Forest model. This automated \
-        pipeline can have an estimated reduction of workload of field engineers by 20%.\n\
+        pipeline can have an estimated reduction of workload of field engineers by 20%.\\n\
         - Leveraged a diverse technology stack, including PostgreSQL, Tableau, and machine learning to address real-time business needs.',
         link: 'https://www.ge.com/steam-power',
       },
       {
         name: 'Butterflies Dating and Socials',
-        description: 'Software Development Engineer, April 2021 - December 2021\n\
+        description: 'Software Development Engineer, April 2021 - December 2021\\n\
         - As a part of the Machine Learning team at Butterflies Dating, I developed a transformer-based profile matching algorithm using \
-        PyTorch. This algorithm significantly improved the accuracy and efficiency of matching user profiles within the application.\n\
+        PyTorch. This algorithm significantly improved the accuracy and efficiency of matching user profiles within the application.\\n\
         - Built a DistilBERT model that achieved an impressive accuracy rate of 98% in detecting and flagging toxic chats. This model played a crucial \
-        role in maintaining a safe and respectful environment within the app.\n\
+        role in maintaining a safe and respectful environment within the app.\\n\
         - Conducted A/B testing with the identified KPIs to evaluate the effectiveness of different algorithms and model variations, leading to \
-        data-driven decision-making and improved algorithm performance.\n\
+        data-driven decision-making and improved algorithm performance.\\n\
         - Actively participated in code reviews and knowledge sharing sessions, contributing to a collaborative and innovative work environment.',
         link: 'https://www.crunchbase.com/organization/butterflies-dating-socials',
       },
