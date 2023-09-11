@@ -3,92 +3,90 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Preetham Reddy Pathi',
+    name: 'Preetham Pathi',
     // Main Site Title
-    title: `Preetham Pathi | Machine Learning Developer`,
+    title: `Preetham Pathi | Data Scientist`,
     // Description that goes under your name in main bio
-    description: `Well Organized entry-level professional pursing Masters in Data Science at University of San Francisco seeking a job to continue growth into Machine Learning.`,
+    description: `Well Organized data science professional with a Masters in Data Science from University of San Francisco seeking a job to continue growth into Machine Learning.`,
     // Optional: Twitter account handle
     author: `@PathiPreetham`,
     // Optional: Github account URL
     github: `https://github.com/preethampathi2305`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/preetham-reddy-pathi-15349b11b/`,
+    linkedin: `https://www.linkedin.com/in/preethampathi/`,
     // Content of the About Me section
-    about: `Entry-level Machine Learning and Data Science Engineer with projects to prove. Interned at Butterflies Dating and Socials and General Electric. Bachelors in Computer Science from VIT, Vellore. Currently pursuing a Masters in Data Science from University of San Francisco.`,
+    about: `Machine Learning and Data Science Engineer with experience to prove. Worked at Butterflies Dating and Socials, General Electric and Propeller Health (ResMed). Bachelors in Computer Science from VIT University. Masters in Data Science from University of San Francisco.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'BRUSHED - AI TOOL FOR STYLE TRANSFER',
+        name: 'LinkedIn Alumni Profile Similarity',
         description:
-          'Developed and deployed a web application for style transfer.',
-        link: 'https://style-transfer-007.herokuapp.com/',
+          'Executed an ETL process using AirFlow to extract alumni data from GCP, transformed via PySpark, and loaded into MongoDB Atlas. Leveraged BERT for sentence embeddings to gauge profile similarities in Databricks.',
+        link: 'https://github.com/MohanaMeher/alumni_profile_matching',
       },
       {
-        name: 'GRADIENT DESCENT IMPLEMENTATION IN PYTHON',
+        name: 'Image Captioning on Flickr-8k Dataset',
         description:
-          'Implemented gradient descent for Linear and Logistic regression with NumPy in Python. Implemented Linear, Logistic Regression, Naïve Bayes, Support Vector Machines, Neural Network algorithms from scratch in Python.',
-        link: 'https://github.com/preethampathi2305/gradient-descent-in-linear-regression',
+          'Built an Image Captioning model trained on the Flickr-8k dataset using PyTorch for an attention based Sequence 2 Sequence model which outputs what\'s happening in a given image.',
+        link: '',
       },
       {
-        name: 'FACE DETECTION USING OPENCV AND RECOGNITION USING KNN FROM SCRATCH',
+        name: 'Apple Support Chatbot using Twitter Customer Support Data',
         description:
-          'Face detection using the HaarCascade model from OpenCV and classifying the faces using KNN classification algorithm which was implemented from scratch (using NumPy). ',
-        link: 'https://github.com/preethampathi2305/face-recognition-using-knn',
+          'Developed an Apple Support Chatbot utilizing Twitter customer support data, leveraging an attention-based sequence-to-sequence (seq2seq) model to provide automated assistance and solutions to user queries.',
+        link: '',
       },
       {
-        name: 'MARKS PREDICTION DEPLOYED WITH FLASK',
+        name: 'Default Prediction using American Express Dataset',
         description:
-          'Developed a small ML model to predict marks depending on the number of hours the student studies and used flask to make it into a web-app.',
-        link: 'https://marks-prediction-with-lr.herokuapp.com/',
+          'Successfully implemented a default prediction model using the American Express dataset, leveraging Apache Spark to handle 15 million rows of data, resulting in accurate risk assessment and informed decision-making.',
+        link: 'https://github.com/preethampathi2305/amex-default-prediction',
       },
       {
-        name: 'MOVIE REVIEW CLASSIFICATION USIGN NLTK AND NAIVE BAYES',
+        name: 'Windmill Power Forecasting',
         description:
-          'Developed a movie review classification using naive bayes. Useful for getting feedback for a movie from social media comments.',
-        link: 'https://github.com/preethampathi2305/movie-review-classification-using-nltk-and-naive-bayes',
-      },
-      {
-        name: 'BOOK STORE SCRAPED WITH SCRAPY',
-        description:
-          'Scraping all the image URLs ,Book titles and prices of all the books from an online book store.',
-        link: 'https://github.com/preethampathi2305/Scrape-online-book-store-with-Scrapy',
-      },
-      {
-        name: '(PUBLICATION) GLASSES FOR SMART TOURISM APPLICATIONS',
-        description:
-          'Published a Research Paper in the Computer Vision Recognition Systems Using Machine and Deep Learning Approaches (CVRS MDA 2021) Book chapter. Publication: IET. The paper proposes a smart glasses software for tourism applications like text extraction and translation, Face recognition Navigation, Text to speech using Kaldi Voice Recognition toolkit. Accepted and will be published when the chapter gets published.',
-        link: 'https://shop.theiet.org/computer-vision-and-recognition-systems-using-machine-and-deep-learning-approaches',
-      },
-      {
-        name: '(PUBLICATION) TOOL SEGMENTATION AND IMAGE ENHANCEMENT FOR LAPAROSCOPIC SURGERY',
-        description:
-          'In laparoscopic surgeries, as the doctor will see the feed from a small camera the view may not be perfect due to many issues like hazing, reflections, etc. To tackle those problems and give clear vision to the doctor, we have developed a model which de-hazes feed, handles glare issues, segments the surgical tools with machine learning image segmentation, all with voice recognition as the doctor may not have his hands empty to operate the computer.',
-        link: 'https://ieeexplore.ieee.org/document/9696600',
-      },
-      {
-        name: '(PUBLICATION) CONTENT BASED IMAGE RETRIEVAL USING K-MEANS CLUSTERING AND IMAGE LABEL COMPARISION',
-        description:
-          'A novel method for content-based image retrieval problem where we first cluster the dataset with the features extracted from images and assign tags to each cluster. We then generate tags for each input image and compare the tags between them. This process takes very little time and processing power as we’re just comparing tags and not images themselves.',
-        link: 'https://link.springer.com/chapter/10.1007/978-3-031-05767-0_18',
+          'Prototyped multiple time series forecasting models like Prophet, SARIMAX, VAR and ETS to predict the generation of a windmill.',
+        link: '',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'General Electric',
-        description: 'Data Analytics Intern, January 2022 - June 2022',
-        link: 'https://www.ge.com/',
+        name: 'Vee',
+        description: 'Cloud Engineer, August 2023 - Present',
+        link: 'https://www.letsvee.com/',
+      },
+      {
+        name: 'Propeller Health (ResMed)',
+        description: 'Data Scientist, October 2022 - July 2023\n\
+        - Developed and implemented an Isolation Forest model and a distance based algorithm to enhance the quality and consistency of patient drug intake data by accurately detecting anomalies on 200M rows of data, utilizing Apache Spark for efficient data transformation.\n\
+        - Utilized the RandomizedSearch technique to create a robust XGBoost regression model on Amazon SageMaker and Redshift to accurately predict the likelihood of patients taking rescue inhaler puffs.\n\
+        - As an intern, I generated interactive Tableau dashboards to analyze user behavior in an Electronic Health Record (EHR) platform.\n\
+        - Utilized PostgreSQL for efficient data storage and retrieval, ensuring data integrity and accessibility throughout the project.\n\
+        - Collaborated with cross-functional teams including data engineers and healthcare professionals to gather requirements, design and deploy data pipelines.',
+        link: 'https://propellerhealth.com/',
+      },
+      {
+        name: 'General Electric Steam Power',
+        description: 'Data Analyst, January 2022 - June 2022\n- Conducted an in-depth word frequency analysis on an imbalanced dataset and applied advanced feature engineering techniques to \
+        enhance the quality of the data and developed a highly accurate Random Forest model to predict the Parts Qualification Level for turbine \
+        components, achieving an accuracy rate of 97.3%.\n\
+        - Engineered and implemented a streamlined model pipeline that incorporated the aforementioned Random Forest model. This automated \
+        pipeline can have an estimated reduction of workload of field engineers by 20%.\n\
+        - Leveraged a diverse technology stack, including PostgreSQL, Tableau, and machine learning to address real-time business needs.',
+        link: 'https://www.ge.com/steam-power',
       },
       {
         name: 'Butterflies Dating and Socials',
-        description: 'Machine Learning Intern, April 2021 - August 2021',
-        link: 'https://butterflies.live/',
-      },
-      {
-        name: 'ISRO: Coastal Zone Change Detection and Monitoring',
-        description: 'Worked on Speckle Noise Reduction in SAR Images using Neuro-Fuzzy approaches for Coastal Zone Change Detection and Monitoring under Dr. V. Santhi where I was part of Satellite Images rendering and visualizing team. , June 2021 - July 2021',
-        link: '',
+        description: 'Software Development Engineer, April 2021 - December 2021\n\
+        - As a part of the Machine Learning team at Butterflies Dating, I developed a transformer-based profile matching algorithm using \
+        PyTorch. This algorithm significantly improved the accuracy and efficiency of matching user profiles within the application.\n\
+        - Built a DistilBERT model that achieved an impressive accuracy rate of 98% in detecting and flagging toxic chats. This model played a crucial \
+        role in maintaining a safe and respectful environment within the app.\n\
+        - Conducted A/B testing with the identified KPIs to evaluate the effectiveness of different algorithms and model variations, leading to \
+        data-driven decision-making and improved algorithm performance.\n\
+        - Actively participated in code reviews and knowledge sharing sessions, contributing to a collaborative and innovative work environment.',
+        link: 'https://www.crunchbase.com/organization/butterflies-dating-socials',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -96,16 +94,36 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'Python , Java, TensorFlow, PyTorch, Scikit Learn, R, Matlab, C/C++, HTML,CSS,JS, SQL',
+          'Python, C, C++, Java, R, PyTorch, Keras, HTML, CSS, Git, Tableau, PowerBI, Looker, Django',
+      },
+      {
+        name: 'Databases',
+        description: 'MongoDB, PostreSQL, Oracle (PL/SQL),SQL Server, T-SQL, MySQL, PrestoDB, Cassandra',
+      },
+      {
+        name: 'Data Engineering',
+        description: 'Spark (PySpark, SparkSQL, SparkML), RAPIDS cuDF, Kafka, Hadoop, Hive, Snowflake, dbt, Databricks',
+      },
+      {
+        name: 'Cloud',
+        description: 'AWS (EC2, S3, SageMaker, Redshift, Lambda, Glue, Athena), GCP (Compute, Buckets, BigQuery), Microsoft Azure',
+      },
+      {
+        name: 'Data Science',
+        description: 'Regression, Gradient Boosting, Time Series Analysis (ARIMA, VAR, Prophet), NumPy, SciPy, A/B Testing, SHAP, Recommendation Engines, Customer Segmentation',
       },
       {
         name: 'Machine Learning',
-        description: 'Neural Networks, Convolution Neural Networks, Recurrent Neural Network, Support Vector Machine, Natural Language Processing, Long Short Term Memory (LSTM), Generative Adversarial Networks, Feature Selection and Extraction, Transformers (GPT)',
+        description: 'Neural Networks, CNN, RNN, LSTM, Transformers (GPT), Generative AI, Prompt Engineering, ChatGPT API, LangChain',
+      },
+      {
+        name: 'ML Ops',
+        description: 'MLFlow, DVC, MetaFlow ,AirFlow, Git, Kubernetes, Docker, Prefect, DeepChecks, EvidentlyAI, Alibi Detect',
       },
       {
         name: 'Other',
         description:
-          'Flask, Heroku Deployment , CI / CD, UI development with Tkinter (Python), API design, Tableau',
+          'Docker, CI / CD, Microservices, API design, Agile / Scrum',
       },
     ],
   },
