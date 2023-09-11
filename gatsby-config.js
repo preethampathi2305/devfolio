@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/preethampathi/`,
     // Content of the About Me section
-    about: `Machine Learning and Data Science Engineer with experience to prove. <br> \
+    about: `Machine Learning and Data Science Engineer with experience to prove.\
     Worked at Butterflies Dating and Socials, General Electric and Propeller Health (ResMed). \n\
     Bachelors in Computer Science from VIT University. \n\
     Masters in Data Science from University of San Francisco.`,
