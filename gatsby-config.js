@@ -20,6 +20,18 @@ module.exports = {
     Bachelors in Computer Science from VIT University. \n\
     Masters in Data Science from University of San Francisco.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
+    education:[
+      {
+        name: 'MS in Data Science - University of San Francisco',
+        description: '',
+        link: 'https://www.usfca.edu/'
+      },
+      {
+        name: 'BTech in Computer Science - Vellore Institute of Technology',
+        description: '',
+        link: 'https://vit.ac.in/'
+      }
+    ],
     projects: [
       {
         name: 'LinkedIn Alumni Profile Similarity',
