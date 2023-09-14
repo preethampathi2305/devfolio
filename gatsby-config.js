@@ -20,18 +20,6 @@ module.exports = {
     Bachelors in Computer Science from VIT University. \n\
     Masters in Data Science from University of San Francisco.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    education:[
-      {
-        name: 'MS in Data Science - University of San Francisco',
-        description: '',
-        link: 'https://www.usfca.edu/'
-      },
-      {
-        name: 'BTech in Computer Science - Vellore Institute of Technology',
-        description: '',
-        link: 'https://vit.ac.in/'
-      }
-    ],
     projects: [
       {
         name: 'LinkedIn Alumni Profile Similarity',
@@ -66,11 +54,6 @@ module.exports = {
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
-      {
-        name: 'Vee',
-        description: 'Cloud Engineer, August 2023 - Present',
-        link: 'https://www.letsvee.com/',
-      },
       {
         name: 'Propeller Health (ResMed)',
         description: 'Data Scientist, October 2022 - July 2023\n\
